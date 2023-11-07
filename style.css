@@ -1,13 +1,17 @@
-*{
-	margin: 1px;
-	padding: 1px;
+ *{
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 .navigation_bar{
-	background-image: linear-gradient(to right,#a2cae8,#7dbae8,#4781ad);
+	background-image: linear-gradient(to right,#9E9D24,#DCE775,#E6EE9C);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
 }
 .navmenu{
-	color: white;
+	color: skyblue;
 	font-size:20px;
 	font-weight: bolder;
 	transition-duration: 0.5s;
@@ -17,8 +21,43 @@
 	color: black;
 }
 .myname{
-	font-size: 40px;
-	font-family: Arial Black;
-	color: royalblue;
+	font-size: 30px;
+	font-family: Algerian;
+	color: darkblue;
 	text-shadow: 0px 0px 3px white;
+	font-variant: small-caps;
+}
+.sect
+{
+	border: 2px solid black;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sect div
+{
+	font-size: 50px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.home{
+/*	background-color: lightgrey;*/
+height: 600px;
+}
+.homename{
+	font-size: 80px;
+}
+#designation
+{
+	font-size: 50px;
+	color: palevioletred;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+.home div
+{
+	font-weight: bolder;
+
 }
